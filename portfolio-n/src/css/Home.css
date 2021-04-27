@@ -87,7 +87,7 @@
 .sholder2 .pe-sk h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 1vw;
+    font-size: 3vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -129,7 +129,7 @@
 .sholder .me-cv h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 4vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
