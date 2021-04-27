@@ -9,7 +9,7 @@
 
 .logo{
     color: #00ddff;
-    font-size: 19px;
+    font-size: 1vw;
     font-style: italic;
 }
 
@@ -43,7 +43,7 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
-    height: 575px;
+
 }
 .sholder2{
     display: block;
@@ -87,7 +87,7 @@
 .sholder2 .pe-sk h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 1vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -102,7 +102,7 @@
 .sholder3 .my-pj h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 2vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -111,7 +111,7 @@
 .sholder3 .my-pj h5{
     color: #fdb6b6;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -120,7 +120,7 @@
 .sholder3 .my-pj h4{
     color: #fdb6b6;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.8vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@
 .sholder .me-cv h2{
     color: #550000;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 1.8vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -177,7 +177,7 @@
     background-color: #00c4eb;
     padding: 15px 60px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 0.8vw;
     margin-top: 30px;
     cursor: pointer;
     transition: all 0.5s;
@@ -202,7 +202,7 @@
     
     .nav header a{
         margin-bottom: 16px;
-        font-size: 35px;
+        font-size: 1vw;
         padding: 50px
     }
     
@@ -239,11 +239,10 @@
         white-space: -moz-pre-wrap;  
         white-space: -pre-wrap;      
         white-space: -o-pre-wrap;
-        font-size: 37px;
+        font-size: 1vw;
     }
-    
     .sholder .me-cv button{
-        font-size: 38px;
+        font-size: 1vw;
         padding: 20px 75px;
         border-radius: 50px;
         margin-bottom: 60px;
