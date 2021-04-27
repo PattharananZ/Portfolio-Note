@@ -28,13 +28,16 @@
     margin-top: -3vw;
     margin: auto;
 }
-@media (max-width: 1104px) {
+@media (max-width: 1920px) {
     .all-work h1{
         font-size: 5vw;
     }
     .Allworkss{
         background-color: #D24328;
         height: 100%;
+    }
+    .buttons.btn-outline-dark {
+        width: 90vw;
     }
   }
   
@@ -54,6 +57,11 @@
         background-color: #D24328;
         height: 100vh;
     }
+    .buttons.btn-outline-dark {
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+    }
   }
   @media (max-width: 576px) {
     .btn.btn-outline-dark{
@@ -71,5 +79,9 @@
     .size-medium {
         width: 50vw;
         height: 50vw;
+    }
+    .buttons.btn.btn-outline-dark {
+        display: flex;
+        justify-content: center;
     }
   }

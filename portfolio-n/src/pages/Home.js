@@ -1,6 +1,7 @@
 import "../css/Home.css";
 import React from 'react'
-import { Image, Card, Button } from 'react-bootstrap';
+import { Image, Card, Button,} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import Profile from './imgs/Profile.png';
 import networking from './imgs/networking.png';
 import creativity from './imgs/creativity.png';
@@ -159,7 +160,8 @@ const Home = () => {
                 <Card.Text className="ptext">
                   การทำBlueprint / landscape / lighting / Cinematic 
     </Card.Text>
-    <Button variant="outline-dark">See more</Button>
+    <Link className="links" to="/mywork-unreal" exact>
+    <Button variant="outline-dark" className="homes">See more</Button></Link>
               </Card.Body>
             </Card>
 
@@ -170,7 +172,8 @@ const Home = () => {
                 <Card.Text className="ptext">
                   การทำModel / Rigging / lighting / Animation 
     </Card.Text>
-    <Button variant="outline-dark">See more</Button>
+    <Link className="links" to="/mywork-maya" exact>
+    <Button variant="outline-dark" className="homes">See more</Button></Link>
               </Card.Body>
             </Card>
 
@@ -181,7 +184,8 @@ const Home = () => {
                 <Card.Text className="ptext">
                   การทำ Mockup / Fiber Mesh / Human Painting 
     </Card.Text>
-    <Button variant="outline-dark">See more</Button>
+    <Link className="links" to="/mywork-zbrush" exact>
+    <Button variant="outline-dark" className="homes">See more</Button></Link>
               </Card.Body>
             </Card>
 
@@ -192,7 +196,8 @@ const Home = () => {
                 <Card.Text className="ptext">
                   การทำ Texture ให้กับ Model / Environment
     </Card.Text>
-    <Button variant="outline-dark">See more</Button>
+    <Link className="links" to="/mywork-substance-painter" exact>
+    <Button variant="outline-dark" className="homes">See more</Button></Link>
               </Card.Body>
             </Card>
 
@@ -203,7 +208,8 @@ const Home = () => {
                 <Card.Text className="ptext">
                   การเขียนเว็บไซต์ด้วยภาษาต่างๆ ออกแบบ wireframe
     </Card.Text>
-    <Button variant="outline-dark">See more</Button>
+    <Link className="links" to="/mywork-vscode" exact>
+    <Button variant="outline-dark" className="homes">See more</Button></Link>
               </Card.Body>
             </Card>
               

@@ -5,6 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home";
 import Mywork from "./pages/Mywork";
 import Mywork1 from "./pages/Mywork1";
+import Mywork2 from "./pages/Mywork2";
+import Mywork3 from "./pages/Mywork3";
+import Mywork4 from "./pages/Mywork4";
+import Mywork5 from "./pages/Mywork5";
 import About from "./pages/About";
 import NavBar from "./components/NavBar";
 import reportWebVitals from './reportWebVitals';
@@ -23,6 +27,18 @@ ReactDOM.render(
         </Route>
         <Route path="/mywork-unreal">
           <Mywork1 />
+        </Route>
+        <Route path="/mywork-maya">
+          <Mywork2 />
+        </Route>
+        <Route path="/mywork-zbrush">
+          <Mywork3 />
+        </Route>
+        <Route path="/mywork-substance-painter">
+          <Mywork4 />
+        </Route>
+        <Route path="/mywork-vscode">
+          <Mywork5 />
         </Route>
         <Route path="/about">
           <About />
