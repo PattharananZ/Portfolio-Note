@@ -28,9 +28,18 @@
     font-weight: 900;
     font-size: 3vw;
     line-height: 0.9em;
-    margin-bottom: 30px;
     padding-top: 1%;
     flex-wrap: wrap;
+}
+
+.wks-header2 h1{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 0.9em;
+    padding: 2%;
+    flex-wrap: wrap;
+    padding-top: 3%;
 }
 .wks-header h5{
     color: #ffffff;
@@ -70,4 +79,105 @@
 .row{
     margin: 0 !important;
     padding-bottom: 2%;
+}
+.size-s{
+    width: 30vw;
+    height: 30vw;
+}
+.size-small{
+    width: 4vw;
+    height: 4vw;
+}
+.lotties-s.col-md-8.col-12{
+    margin-top: -10vw !important;
+    margin-bottom: -10vw;
+    background-color: #D24328;
+}
+.lotties-w.col-md-4.col-6{
+    margin-top: -10vw !important;
+    margin-bottom: -10vw;
+}
+.stars.container{
+    display: flex;
+}
+
+@media (max-width: 1104px) {
+    
+}
+
+@media (max-width: 991px) {
+    .work-header h1 {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .header-w {
+        width: 100vw;
+    }
+    .work-header h5 {
+        font-size: 1.6vw;
+        margin-bottom: 0px;
+    }
+    .row {
+        justify-content: center;
+        display: flex;
+}
+.wks-header2 h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+.wks-header h1 {
+    text-align: center;
+}
+.carousel {
+    padding: 5vw;
+}
+.stars.container {
+    display: flex;
+    justify-content: center;
+}
+    }
+    @media (max-width: 767px) {
+        .size-s {
+            display: none;
+        }
+        .lotties-s.col-md-8.col-12 {
+            margin-top: 4vw !important;
+            margin-bottom: 0vw;
+        }
+    }
+@media (max-width: 576px) {
+    .work-header h5 {
+        font-size: 3vw;
+        line-height: 1.2em;
+    }
+    .work-header h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    .size-s {
+        display: none;
+    }
+    .wks-header2 h1 {
+        text-align: center;
+        font-size: 5vw;
+    }
+    .lotties-s.col-md-8.col-12 {
+        margin-top: 6vw !important;
+        margin-bottom: 0vw;
+        background-color: #D24328;
+    }
+    .wks-header h1 {
+        font-size: 5vw;
+    }
+    .wks-header h5 {
+        color: #ffffff;
+        font-weight: 200;
+        font-size: 3vw;
+        line-height: 1.2em;
+        margin-bottom: 30px;
+        padding-top: 9%;
+        flex-wrap: wrap;
+    }
+
 }

@@ -4,6 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home";
 import Mywork from "./pages/Mywork";
+import Mywork1 from "./pages/Mywork1";
 import About from "./pages/About";
 import NavBar from "./components/NavBar";
 import reportWebVitals from './reportWebVitals';
@@ -17,10 +18,13 @@ ReactDOM.render(
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/Mywork">
+        <Route path="/mywork">
           <Mywork />
         </Route>
-        <Route path="/About">
+        <Route path="/mywork-unreal">
+          <Mywork1 />
+        </Route>
+        <Route path="/about">
           <About />
         </Route>
       </Switch>

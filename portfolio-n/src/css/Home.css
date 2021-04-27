@@ -9,7 +9,7 @@
 
 .logo{
     color: #00ddff;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-style: italic;
 }
 
@@ -87,7 +87,7 @@
 .sholder2 .pe-sk h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 5vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -102,7 +102,7 @@
 .sholder3 .my-pj h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 5vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -111,7 +111,7 @@
 .sholder3 .my-pj h5{
     color: #fdb6b6;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 3vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -120,7 +120,7 @@
 .sholder3 .my-pj h4{
     color: #fdb6b6;
     font-weight: 400;
-    font-size: 0.8vw;
+    font-size: 2vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -129,7 +129,7 @@
 .sholder .me-cv h1{
     color: #ffffff;
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 4.5vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@
 .sholder .me-cv h2{
     color: #550000;
     font-weight: 900;
-    font-size: 1.8vw;
+    font-size: 2vw;
     line-height: 0.9em;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -215,42 +215,6 @@
         border-radius: 55px;
     }
     
-    .sholder{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    
-    .sholder .me-cv{
-        width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .sholder .me-cv h1{
-        font-size: 130px;
-    }
-    
-    .sholder .me-cv p{
-         font-size: 40px;
-    }   
-    
-    .sholder .me-cv pre,.sp2{
-        white-space: pre-wrap;       
-        white-space: -moz-pre-wrap;  
-        white-space: -pre-wrap;      
-        white-space: -o-pre-wrap;
-        font-size: 1vw;
-    }
-    .sholder .me-cv button{
-        font-size: 1vw;
-        padding: 20px 75px;
-        border-radius: 50px;
-        margin-bottom: 60px;
-    } 
-    
-    .sholder .bg-holder{
-        width: 100%;
-    }
 }
 
 /*SVG*/
@@ -296,3 +260,114 @@ tspan { white-space:pre }
 .card-text:last-child {
     color: #808080 !important;
 }
+
+@media (max-width: 1104px) {
+    
+  }
+  
+  @media (max-width: 991px) {
+    
+    .sholder{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .sholder .me-cv{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+    }
+    .sholder .me-cv h1{
+        font-size: 10vw;
+    }
+    .sholder .me-cv h2 {
+        font-size: 3vw;
+    }
+    .sholder .me-cv p{
+         font-size: 2vw;
+    }   
+    
+    .sholder .me-cv pre,.sp2{
+        white-space: pre-wrap;       
+        white-space: -moz-pre-wrap;  
+        white-space: -pre-wrap;      
+        white-space: -o-pre-wrap;
+        font-size: 1.5vw;
+    }
+    .sholder .me-cv button{
+        font-size: 1vw;
+        padding: 20px 75px;
+        border-radius: 50px;
+        margin-bottom: 60px;
+    } 
+    
+    .sholder .bg-holder{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .card-title.h5 {
+        font-size: 2vw;
+    }
+    .card-text:last-child {
+        font-size: 1.5vw;
+    }
+    .ptext{
+        font-size: 1.5vw;
+    }
+    .ptext.card-text:last-child {
+        font-size: 1.5vw;
+    }
+    /* .btn.btn-outline-dark {
+        font-size: 2vw;
+        width: 13vw;
+        margin: auto;
+    } */
+  }
+  @media (max-width: 576px) {
+    .Box-person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Box-skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon-img {
+        width: 16vw;
+        height: 16vw;
+        margin: auto;
+    }
+    .card-title.h5 {
+        font-size: 4vw;
+    }
+    .card-text:last-child {
+        font-size: 2.5vw;
+    }
+    .Box-work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn.btn-outline-dark {
+        font-size: 3vw;
+        width: 40vw;
+        margin: auto;
+    }
+    .ptext {
+        font-size: 2.5vw;
+    }
+    .card-title.h5 {
+        font-size: 5vw;
+    }
+    .sholder3 .my-pj h1 {
+        font-size: 7vw;
+    }
+    .sholder2 .pe-sk h1 {
+        font-size: 6vw;
+    }
+  }
