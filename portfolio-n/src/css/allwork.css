@@ -37,9 +37,11 @@
         height: 100%;
     }
     .buttons.btn-outline-dark {
-        width: 90vw;
-    }
+        width: 75vw;
+        display: flex;
+        justify-content: center;
   }
+}
   
   @media (max-width: 991px) {
     .all-work h1{
