@@ -127,6 +127,7 @@ const Mywork1 = () => {
               <Lottie animationData={Star3} className="size-small" /><Lottie animationData={Star3} className="size-small" /><Lottie animationData={Star3} className="size-small" />
               </Container>
               <h5>       สร้างโปรเจคเกมร่วมกับเพื่อนอีก3คน โดยใช้โปรแกรม Unreal Engine 4.25 ซึ่งหน้าที่หลักของผมคือ Game Design, Graphic Design และ SupportGame Development Coding ผมเป็นคนรับผิดชอบงานในส่วนร่าง Mockup เพื่อนำเสนอภายในกลุ่ม ออกแบบและสร้างแมพทุกแมพภายในเกมนี้ เป็นจำนวนทั้งสิ้น7 แมพ โดยผมรับผิดทุกขั้นตอนตั้งแต่สร้างพื้นที่ ทำTextures Materials ต่างๆที่ต้องใช้ในเกม ตกแต่งแมพต่างๆทั้งบนบกและในน้ำ การจัดแสงและเอฟเฟคต่างๆ รวมถึงงานออกแบบต่างๆภายในโปรเจค</h5>
+              <a href="https://drive.google.com/file/d/1K_s4taVtd_A66z36amrkofA0BRCNNqlX/view?usp=sharing"><h5>Video demo </h5></a>
             </div>
           </Col>
         </Row>
@@ -204,6 +205,7 @@ const Mywork1 = () => {
               </Container>
               <h5>               สร้างโปรเจคเกมด้วยตัวคนเดียว โดยใช้โปรแกรม Unreal Engine 4.26 ซึ่งเริ่มทำตั้งแต่ขั้นแรกสร้างพื้น Landscape ทำ Material โยงเส้น Textures, Blueprints ต่างๆ วางสิ่งของ วัตถุเองภายใน Level Map จัดแสงและเงา Filter ต่างๆ ตั้งค่าเพื่อให้มีประสิทธิภาพสูงและดียิ่งขึ้น เวลาทั้งหมดของ
 โปรเจคนี้คือ 5 week ใช้เวลาทำโดยประมาณ 5-12 ชม./สัปดาห์  </h5>
+<a href="https://drive.google.com/file/d/1KvsSuyImi4t6VCaFrUfGGk86SKMfre3g/view?usp=sharing"><h5>Video demo </h5></a>
             </div>
           </Col>
         </Row>

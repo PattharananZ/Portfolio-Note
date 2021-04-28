@@ -28,12 +28,15 @@ Streamer : @ChefWendyZ
 Program in Information Technology
 2018 - Present
 Multimedia and Game Development
+</p>
 <div className="text">GITHUB and GOOGLE DRIVE <span className="typing-2" /></div>
+<a href="http://1ab.in/ZNV">
 <p>
-GITHUB : PattharananZ
-G-DRIVE : http://1ab.in/ZNV
-</p>
-</p>
+GITHUB : PattharananZ</p>
+</a>
+<a href="http://1ab.in/ZNV"><p>
+G-DRIVE : http://1ab.in/ZNV</p></a>
+
             </div>
           </div>
         </div>
